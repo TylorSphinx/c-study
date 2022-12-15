@@ -1,29 +1,18 @@
 // Program to find all anagrams of a given word, using a dictionary
 
 // read from a file
-
 #include <iostream>
-
 #include <fstream>
-
 #include <string>
-
 #include <vector>
-
 #include <algorithm>
-
 #include <iterator>
 
 using namespace std;
 
 typedef istream_iterator<string> string_input;
 
-
-
-
-
 // 欢迎界面
-
 void welcome()
 
 {
@@ -37,7 +26,6 @@ void welcome()
 
 
 // 读入词典文件,并对词典单词.进行词典序排序
-
 void readDict(vector<string> & dictionary)
 
 {
@@ -91,8 +79,6 @@ void readDict(vector<string> & dictionary)
 	ifs.close();
 
 }
-
-
 
 // 获取用户单词，查找变位词并输出
 
